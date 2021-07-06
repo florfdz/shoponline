@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif; 
+}
+
+/* WHATSAPP */
+
+#whatsApp a img {
+  width: 55px;
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  @media all and (max-width: 992px) {
+      width: 45px;
+      right: 3px;
+      bottom: 10px
+  }
+}
+
+/* FUENTES */
+
+/* EACH - Aplicado en  Página de productos */
+@each $val in $weights { 
+  .font-#{$val} {
+    font-weight: $val;
+  }
+}
+
+/* MAPS - Aplicado en página de productos */
+@each $k, $v in $sizes {
+  .font-weight-#{$k} {
+    font-size: $v;
+  } 
+}
+
+/* BORDES */
+
+/* BUCLE- Aplicado en página de contacto */
+@for $i from 1 through 6 {
+  .radiobdr-#{$i}{
+    border-radius: $radioborder * $i;
+  }
+}
+
+/* BREADCRUMBS */
+
+.breadcrumb {
+  margin-top: 130px;
+  background-color: white!important;
+  padding: 22px 0px 0px 35px!important;
+  margin-bottom: 10px;
+  font-size: 14px;
+  @media all and (min-width: 768px) and (max-width: 992px) {
+    margin-top: 8.2rem;
+    justify-content: center;
+    padding-left: 0!important;
+    margin-bottom: 5px!important;
+  }
+  @media all and (max-width: 768px) {
+    margin-top: 9.1rem;
+    justify-content: center;
+    padding-left: 0!important;
+    margin-bottom: 5px!important;
+  }
+    .breadcrumb-item {
+      a {
+      color: #b2c2cc!important;
+      }
+      &.active {
+      color: #b2c2cc;  
+        &::before {
+        content: $breadcrumb-divider;
+        color: #b2c2cc;
+        }
+      }  
+    }
+ }
+ 
+ .titleMobile {
+    text-align: center;
+  @media all and (min-width: 992px) {
+    display: none;
+  }
+ }

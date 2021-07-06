@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Quienes somos</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+</head>
+<body>
+	<script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <header id="headerShop" class="container-fluid px-0">
+		<div class="headerTop d-flex d-flex flex-row flex-wrap no-gutters px-2 px-md-4">
+			<div class="logo col-12 col-md-7">
+				<a href="index.html">
+					<img src="multimedia/logo.jpg" alt="Logo de la tienda">
+				</a>
+			</div>			
+			<div class="headerRight col-md-5">	
+				<div class="socialAccount d-flex no-gutters px-md-3">
+					<div class="socialLogos col-md-5 "> 
+						<a href="https://www.facebook.com" target="_blank"><img src="multimedia/FB.png" alt="Facebook"></a>
+						<a href="https://www.instagram.com" target="_blank"><img src="multimedia/IG.png" alt="Instagram"></a>
+						<a href="https://www.twitter.com" target="_blank"><img src="multimedia/TW.png" alt="Twitter"></a>	
+					</div>	
+					<div class="userAccount col-md-7">	
+							<span>Crear cuenta ||</span>
+							<span>Mi cuenta</span>
+					</div>
+				</div>				
+				<div class="buscador">
+					<form class="searchForm" action="/search/" method="get">
+				        <input autocomplete="off" type="search" name="q" placeholder="¿Qué estás buscando?">
+				        <button type="submit" class="btnSearchSubmit" value="Buscar">Buscar
+				        </button>
+					</form>
+				</div>
+			</div>				
+		</div>
+		<div class="headerBottom d-flex no-gutters px-2 px-md-4">
+			<nav class="navbar navbar-expand-md navbar-light col-md-10">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			    <ul class="navbar-nav">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="productos.html">Productos</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="quienessomos.html">¿Quiénes somos?</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="contacto.html">Contacto</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+			<div class="carritoCompras col-2 col-md-2">
+			 <a href="#"><img src="multimedia/shop.png" alt="Mi carrito"></a>
+			</div>
+		</div>
+		</header>
+
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb col-md-12">
+		    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">¿Quiénes somos?</li>
+		  </ol>
+		</nav>
+		<div class="titleMobile col-md-12">
+			<h2 class="font-weight-large font-bold">Nosotros</h2>
+		</div>
+
+		<div id="whoPage">
+			<div class="whoBlock whoBlock--light">
+				<img class="who__image image--izquierda radiobdr-1" src="multimedia/quienessomos.jpg" srcset="multimedia/quienessomosmobile.jpg 768w, multimedia/quienessomos.jpg" alt="Quiénes somos">
+				<div>
+					<h3 class="who__titulo titulo--dark">La marca</h3>
+					<p class="who__parrafo parrafo--dark">Somos una marca joven y descontracturada que apela a los diseños únicos. Nuestras piezas son hechas a mano en diferentes materiales: plata 925, oro 18k y acero quirúrgico.</p>
+					<button href="#" class="boton">
+						+ Info
+					</button>
+				</div>
+			</div>	
+			<div class="whoBlock">
+				<div>
+					<h3 class="who__titulo">Nuestra misión</h3>
+					<p class="who__parrafo">Buscamos un equilibrio entre lo tradicional del oficio y su adaptación al mundo actual.</p>
+					<button href="#" class="boton boton--redondo">
+						Ver Valores
+					</button>
+				</div>
+			</div>
+			<div class="whoBlock whoBlock--light">
+				<div>
+					<h4 class="who__titulo titulo--dark">Staff</h4>
+					<p class="who__parrafo parrafo--dark">Nuestro equipo de trabajo está conformado al momento por 10 personas.</p>
+					<button href="#" class="boton">
+						Conocer equipo
+					</button>
+				</div>
+				<img class="who__image image--derecha radiobdr-1" src="multimedia/staff.jpg" srcset="multimedia/staffmobile.jpg 768w, multimedia/staff.jpg" alt="Staff">
+			</div>
+			<div class="whoBlock"> 
+				<div>
+					<h4 class="who__titulo">Trabajá con nosotros</h4>
+					<p class="who__parrafo">Si querés formar parte de nuestro equipo de trabajo, mandanos tu CV.</p>
+					<button href="#" class="boton">
+						Ver ofertas
+					</button>
+				</div>
+			</div>
+		</div>
+
+	<footer id="footer" class="container-fluid px-0">
+		<div class="footerTop d-flex flex-row flex-wrap align-items-stretch no-gutters px-0 m-4">
+			<div class="sections section2 col-12 col-lg-4">
+				<h5>NAVEGACIÓN</h5>
+				<ul class="navDesktopList px-0">      
+				    <li class="navItemDesktop">  
+			         	 <a class="links" href="productos.html">Productos</a>
+					</li>
+					<li class="navItemDesktop">
+		        		<a class="links" href="quienessomos.html">¿Quiénes somos?</a>
+		        	</li>
+					<li class="navItemDesktop"> 
+		        		<a class="links" href="contacto.html">Contacto</a>
+		        	</li>
+			    </ul>
+			</div>
+			<div class="sections section1 col-12 col-lg-4">
+				<h5>NUESTRA TIENDA</h5>
+				<p>Nuestras piezas son hechas a mano en diferentes materiales: plata 925, oro 18k y acero quirúrgico. Buscamos un equilibrio entre lo tradicional del oficio y su adaptación al mundo actual.</p>
+			</div>
+			<div class="sections section3 col-12 col-lg-4">
+				<h5>NEWSLETTER</h5>
+				<p>¡Enterate de las promos antes que nadie!</p>
+				<p class="lH">Anotate acá:</p>
+				<form class="newsForm" action="/search/" method="get">
+					  <input autocomplete="off" type="search" name="q" placeholder="Email">
+					  <button type="submit" class="btnNewsSubmit" value="Enviar">OK
+					  </button>
+				</form>
+			</div>
+		</div>
+		<div class="footerBottom"> 
+			<a href="#" target="_blank">Políticas de Privacidad</a> |
+			<a href="#" target="_blank">Términos y condiciones</a> |
+			<a href="contacto.html"  target="_blank">Contacto</a>
+		</div>	
+	</footer>
+
+	<div id="whatsApp">
+		<a href="https://wa.me/1123456789?text=CoderHouse" target="_blank"><img src="multimedia/wspp.png" alt="WhasApp"></a>
+	</div>
+
+</body>
+</html>

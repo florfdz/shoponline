@@ -1,0 +1,111 @@
+/* FOOTER */
+
+#footer {
+  background-color: white;
+  border-top: 1px solid #212529;
+  .footerTop {
+    min-height: 330px;
+    padding-top: 40px;
+    @media all and (max-width: 992px) {
+    padding-top: 2px;
+    padding-bottom: 35px;      
+    }
+    .sections {
+    text-align: center;
+      h5 {
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+      border-bottom: 2px solid #212529;
+      text-align: center;
+      padding: 5px;
+      margin: 15px 15px;
+      }
+      &.section1 {
+        p {
+        margin: 0px 20px;
+        color: black;
+        font-size: 14px;
+        }
+      } 
+      &.section2 {
+        .navDesktopList {
+          list-style: none;
+          li a {
+          text-decoration: none; 
+          font-size: 14px;
+          color: black;
+            &:hover {
+            color: #89d8ff;
+            }
+          }
+        }
+      }  
+      &.section3 {
+        p {
+          color: black;
+          font-size: 14px;
+        }   
+        .lH {
+          line-height: 0!important;
+        }  
+        .newsForm {
+          display: inline;
+          position: relative;
+          input {
+            width: 250px;
+            height: 27px;
+            border: 1px solid black;
+            text-align: left;
+            padding-left: 7px;
+            border-radius: 5px;
+            color: #5f677a;
+            font-size: 13px;
+          }
+          button {
+            padding: 0px 7px;
+            height: 23px;
+            color: white;
+            background-color: #89d8ff;
+            border: 1px solid white;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 0.5px;
+          }
+        }
+        @media all and (max-width: 992px) {
+          padding-top: 28px;
+        }
+      }
+    }  
+  }
+.footerBottom {
+    width: 100%;
+    min-height: auto;
+    height: 25px;
+    text-align: center;
+    color: white;
+    padding-bottom:5px;
+    background-color: black;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+      &:hover {
+      text-decoration: none;
+      color: #89d8ff;
+      }
+    }
+  }
+}
+   
+
+  
+
+  
+
+
