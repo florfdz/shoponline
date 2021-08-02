@@ -26,8 +26,42 @@
 						<a href="https://www.twitter.com" target="_blank"><img src="multimedia/TW.png" alt="Twitter"></a>	
 					</div>	
 					<div class="userAccount col-md-7">	
-							<span>Crear cuenta ||</span>
-							<span>Mi cuenta</span>
+						<button type="button" class="btn userBtn" data-toggle="modal" data-target="#userAccountModal">
+						  <p>Crear cuenta</p>
+						</button> 	
+						<div class="modal fade" id="userAccountModal" tabindex="-1" aria-labelledby="userAccountModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title">Crear cuenta</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <p>Próximamente vas a poder crear una cuenta en nuestra tienda.</p>
+						      </div>
+						    </div>
+						  </div>
+						</div> ||
+						<button type="button" class="btn userBtn" data-toggle="modal" data-target="#myAccountModal">
+						  <p>Mi cuenta</p>
+						</button> 	
+						<div class="modal fade" id="myAccountModal" tabindex="-1" aria-labelledby="userAccountModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title">Mi cuenta</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <p>Próximamente vas a poder tener una cuenta en nuestra tienda.</p>
+						      </div>
+						    </div>
+						  </div>
+						</div>
 					</div>
 				</div>				
 				<div class="buscador">
@@ -40,7 +74,7 @@
 			</div>				
 		</div>
 		<div class="headerBottom d-flex no-gutters px-2 px-md-4">
-			<nav class="navbar navbar-expand-md navbar-light col-md-10">
+			<nav class="navbar navbar-expand-lg navbar-light col-lg-10">
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -61,12 +95,28 @@
 			    </ul>
 			  </div>
 			</nav>
-			<div class="carritoCompras col-2 col-md-2">
-			 <a href="#"><img src="multimedia/shop.png" alt="Mi carrito"></a>
+			<div class="carritoCompras col-2 col-lg-2">		
+				<button type="button" class="btn" data-toggle="modal" data-target="#carritoModal">
+				  <img src="multimedia/shop.png" alt="Mi carrito">
+				</button> 	
+				<div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalCenterTitle" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Carrito de compras</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <p>¡Tu carrito de compras está vacío!</p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 			</div>
 		</div>
 		</header>
-
 		<nav aria-label="breadcrumb">
 		  <ol class="breadcrumb col-md-12">
 		    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
@@ -135,16 +185,13 @@
 			</div>
 		</div>
 		<div class="footerBottom"> 
-			<a href="#" target="_blank">Políticas de Privacidad</a> |
-			<a href="#" target="_blank">Términos y condiciones</a> |
-			<a href="contacto.html"  target="_blank">Contacto</a>
+			<a href="proximamente.html" target="_blank">Políticas de Privacidad</a> |
+			<a href="proximamente.html" target="_blank">Términos y condiciones</a> |
+			<a href="contacto.html">Contacto</a>
 		</div>	
 	</footer>
-
 	<div id="whatsApp">
 		<a href="https://wa.me/1123456789?text=CoderHouse" target="_blank"><img src="multimedia/wspp.png" alt="WhasApp"></a>
 	</div>
-
-
 </body>
 </html>
