@@ -109,6 +109,7 @@
 #headerShop {
   .headerBottom {
   height: 40px;
+  padding-bottom: 2px;
   border-top: 1px solid #212529;
   border-bottom: 3px solid #89d8ff;
   background-color: white;
@@ -118,14 +119,16 @@
 
 .navbar-toggler span {
   font-size: 0.7rem;
+  margin-bottom: 3px;
 }
 
 .navbar-nav {
+  border: 1px solid black;
   .nav-item {
-    padding-right: 12px;
     .nav-link {
     text-decoration: none; 
     font-size: 16px;
+    padding-left: 10px;
       &:hover {
       color: #89d8ff!important;
       }
