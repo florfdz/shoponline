@@ -107,9 +107,7 @@ body {
         padding-top: 2px; } }
     #headerShop .headerTop .logo a img {
       height: 85px;
-      width: 170px;
-      border: 1px solid black;
-      border-radius: 5px; }
+      width: 170px; }
       @media all and (max-width: 768px) {
         #headerShop .headerTop .logo a img {
           height: 65px;
