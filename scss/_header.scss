@@ -123,7 +123,6 @@
 }
 
 .navbar-nav {
-  border: 1px solid black;
   .nav-item {
     .nav-link {
     text-decoration: none; 
@@ -139,6 +138,9 @@
 @media all and (max-width: 768px) {
   .navbar {
   height: 46px;
+  }
+ .navbar-nav {
+  border: 1px solid black;
   }
  .nav-link{
   background-color: white;

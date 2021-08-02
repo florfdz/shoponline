@@ -192,18 +192,18 @@ body {
   font-size: 0.7rem;
   margin-bottom: 3px; }
 
-.navbar-nav {
-  border: 1px solid black; }
-  .navbar-nav .nav-item .nav-link {
-    text-decoration: none;
-    font-size: 16px;
-    padding-left: 10px; }
-    .navbar-nav .nav-item .nav-link:hover {
-      color: #89d8ff !important; }
+.navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 10px; }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #89d8ff !important; }
 
 @media all and (max-width: 768px) {
   .navbar {
     height: 46px; }
+  .navbar-nav {
+    border: 1px solid black; }
   .nav-link {
     background-color: white; } }
 
